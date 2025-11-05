@@ -1,0 +1,9 @@
+button{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+*{
+    background-color: cadetblue;
+    text-align: center;
+}
