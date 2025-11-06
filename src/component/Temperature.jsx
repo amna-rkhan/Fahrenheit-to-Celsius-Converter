@@ -4,7 +4,7 @@ const Temperature=()=> {
   const [fahrenheit, setFahrenheit] = useState("");
   const [celsius, setCelsius] = useState("");
 
-  const handleChange = (e) => {
+    const handleChange = (e) => {
     const f = e.target.value;
     setFahrenheit(f);
     const c = (f - 32) * 5 / 9;
@@ -14,6 +14,7 @@ const Temperature=()=> {
   return (
     <div>
       <h2>Fahrenheit to Celsius Converter</h2>
+      <h3>Enter the Fahrenheit number </h3>
       <input
         type="number"
         placeholder="Enter °F"
